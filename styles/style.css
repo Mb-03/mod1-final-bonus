@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url(fonts/Inter_18pt-Black.ttf);
+}
+
+body {
+  background: linear-gradient(to bottom, #23283c 0%, #1b1d21 100%);
+  height: 100dvh;
+  width: 100dvw;
+  font-family: "inter";
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #33394e;
+  padding: 19px 120px;
+  display: flex;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #cdd4ec;
+}
+
+.active {
+  color: #829bf3;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1440px;
+  flex: 2;
+}
+
+.hero-title {
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 48px;
+  color: #e8edff;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.card-container {
+  display: flex;
+  gap: 25px;
+  width: 100%;
+  justify-content: center;
+}
+
+.card {
+  background-color: #33394e;
+  border-radius: 20px;
+}
+
+.card-bottom {
+  padding: 17px;
+}
+
+.card-bottom h3 {
+  color: #e8edff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+footer {
+  flex: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 75px;
+}
+
+.pages {
+  display: flex;
+  gap: 8px;
+}
+
+.page {
+  background-color: #33394e;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.page.active {
+  background-color: #3d4a78;
+}
+
+.released {
+    color: #87E891;
+}
+
+.card-release {
+    color: #CDD4EC;
+}
+
+.release-timer {
+    color: #F48F8F;
+}
