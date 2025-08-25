@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "inter";
-  src: url(fonts/Inter_18pt-Black.ttf);
+  src: url(fonts/Inter_18pt-Regular.ttf);
 }
 
 body {
@@ -126,13 +126,13 @@ footer {
 }
 
 .released {
-    color: #87E891;
+  color: #87e891;
 }
 
 .card-release {
-    color: #CDD4EC;
+  color: #cdd4ec;
 }
 
 .release-timer {
-    color: #F48F8F;
+  color: #f48f8f;
 }
